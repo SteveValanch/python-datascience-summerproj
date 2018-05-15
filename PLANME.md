@@ -1,18 +1,29 @@
 # python-datascience-summerproj
-
+ALL INVOLVED ARE WELCOME TO EDIT. MAKE SURE TO DOCUMENT CHANGES WELL
 Just for the sake of documentation: the general idea here is to combine a bit of CS and a bit of Economics to 
 test our ability to model a market. in this case we're going to use cryptocurrency markets under the assumption
 that their drivers are almost entirely limited to simple speculation. The following consists of our primary
 questions: how can we get usable data on speculation? where can we get ENOUGH of it? how can we model this 
-speculation in the market? this includes: Who are the key influencers of speculation? To what degree does
-"group mentality" exist in the speculation data? How does speculation coincide with price fluctuations?
+speculation in the market? 
+this includes: 
+
+Who are the key influencers of speculation? 
+
+To what degree does "group mentality" exist in the speculation data? 
+
+How does speculation coincide with price fluctuations?
+
 Is the reverse true? is it possible that prices are driving speculation instead?(we as authors percieve a large lack
 of understanding of the cryptocurrency market, perhaps success has had has more to do with the overall large gains
 in cryptocurrency markets over the last year, and less to do with proper investment decisions).
+
+
 Finally, we will try to use our gained understanding of the market functioning to predict its fluctuations
 in real time, and evaluate for predictive power.
 
-The big questions:(feel free to edit this)
+
+
+The big questions:
 1. What will our speculation data be? (first suggestion is mentionings of currency by name on social media)
   1a. RAW DATA: Twitter will be best, use of hashtags and relatively short text to be processed.
   1b. Raw data from twitter will be processed into a database to be kept as simple as possible. definitely
