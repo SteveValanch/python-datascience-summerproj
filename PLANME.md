@@ -1,5 +1,15 @@
 # python-datascience-summerproj
 ALL INVOLVED ARE WELCOME TO EDIT. MAKE SURE TO DOCUMENT CHANGES WELL
+
+
+BIGGEST PROBLEMS:
+1. Classifying tweets for positive or negativeness towards a currency. note that this can be solved AFTER we
+model speculation, but having a solution will increase our model's effectiveness if users posess or percieve
+a bias. the market value may be resistent to bear predictions, certain "key players" may be predisposed to 
+negativity, and thus be less "heeded" when advising a sell. Or vice versa, but keep in mind the market is 
+characterized by extreme optimism on the part of its core users.
+
+
 Just for the sake of documentation: the general idea here is to combine a bit of CS and a bit of Economics to 
 test our ability to model a market. in this case we're going to use cryptocurrency markets under the assumption
 that their drivers are almost entirely limited to simple speculation. The following consists of our primary
