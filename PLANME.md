@@ -15,6 +15,10 @@ test our ability to model a market. in this case we're going to use cryptocurren
 that their drivers are almost entirely limited to simple speculation. The following consists of our primary
 questions: how can we get usable data on speculation? where can we get ENOUGH of it? how can we model this 
 speculation in the market? 
+
+(Zheng) what about shocks in the market? like when china banned crypto currency, the price of bitcoin dropped and 
+can twitter show this kind of shocks?
+
 this includes: 
 
 Who are the key influencers of speculation? 
