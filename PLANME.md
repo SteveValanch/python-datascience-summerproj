@@ -72,5 +72,6 @@ The big questions:
  
 4. Can our process be made fast enough for real-time predictions?
 5. Will our results, or our process, be useful for anything other than real-time predictions?
+
   5a. (Zheng) programming and statistical models are just tools. Methods can be flexibly changed to predict other 
       price changes, or even flu trend and box office (done by others).
