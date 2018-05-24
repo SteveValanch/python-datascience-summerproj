@@ -47,8 +47,11 @@ The big questions:
       processing is clearly beyond the scope of this project, simple metrics may be effevtive to get a sense
       of wether some speculation data is BULLish or BEARish. 
   1d. (Zheng) Maybe include market data into our raw data to help explain variances unable to be explained just by twitter?
+ 
   ie. (Zheng) number of retweets and number of favorites should give extra weights to our words, but this 
       depends on what method we are gonna eventually use.
+      (Hayden) great call. Will look into this
+      
 2. How can we gather enough unbiased data to be confident it represents a true sample of speculation?
   2a. (Zheng) If we are gathering from "important" people to gather "important" words, we probably needn't to worry about bias so far.
       Just gather enough size of data, and use cross validation to prove our prediction accuracy is high. In another way, our collected
@@ -58,6 +61,7 @@ The big questions:
   (Zheng) we should collect data first and then think about what models we should use. Essentially, simple techniques may work,
   like logistic regression or time series analysis, but maybe we will need to go to some machine learning stuff, like support
   vector machine, principle component analysis, or neural network.
+  (Hayden) Tell us a little about support vector machine, and principle component. I've heard of them but never looked it up.
 
   3a. First must determine if any crowd mentality exists, we need to see to what degree "mentionings" of
       currencies coincide with each other past random chance.
