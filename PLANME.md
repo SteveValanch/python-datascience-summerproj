@@ -20,7 +20,7 @@ speculation in the market?
 (Zheng) what about shocks in the market? like when china banned crypto currency, the price of bitcoin dropped and 
 can twitter show this kind of shocks?
 (Hayden) Actually my brother says there is a specific set of news sites that report on these things. we can combine
-that tool 
+that tool determining positive and negative with the content from a few big news sites.
 
 this includes: 
 
