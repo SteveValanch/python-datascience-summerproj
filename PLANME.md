@@ -42,7 +42,8 @@ in real time, and evaluate for predictive power.
 
 The big questions:
 1. What will our speculation data be? (first suggestion is mentionings of currency by name on social media)
-  1a. RAW DATA: Twitter will be best, use of hashtags and relatively short text to be processed.
+  1a. RAW DATA: Twitter will be best, use of hashtags and relatively short text to be processed, using Tweepy
+      package for python
   1b. Raw data from twitter will be processed into a database to be kept as simple as possible. definitely
       we will need a table for tweets, and a table for network nodes (users), then later on we need data
       for the movements of the markets, but this will come much later
