@@ -50,16 +50,19 @@ The big questions:
       processing is clearly beyond the scope of this project, simple metrics may be effevtive to get a sense
       of wether some speculation data is BULLish or BEARish. 
   1d. (Zheng) Maybe include market data into our raw data to help explain variances unable to be explained just by twitter?
+  
       (Hayden) Meaning the larger market, like north american, asian, and european stock indexes?
  
   ie. (Zheng) number of retweets and number of favorites should give extra weights to our words, but this 
       depends on what method we are gonna eventually use.
+      
       (Hayden) great call. Will look into this
       
 2. How can we gather enough unbiased data to be confident it represents a true sample of speculation?
   2a. (Zheng) If we are gathering from "important" people to gather "important" words, we probably needn't to worry about bias so far.
       Just gather enough size of data, and use cross validation to prove our prediction accuracy is high. In another way, our collected
       sample is our population.
+      
       (Hayden) Good point
       
 3. How can we best model it? (first suggestion is to throw shit at the wall until something sticks)
