@@ -52,7 +52,8 @@ The big questions:
       of wether some speculation data is BULLish or BEARish. 
   1d. (Zheng) Maybe include market data into our raw data to help explain variances unable to be explained just by twitter?
   
-      (Hayden) Meaning the larger market, like north american, asian, and european stock indexes?
+      (Hayden) Meaning the larger market, like north american, asian, and european stock indexes? I also think it would 
+      be a great idea to see what cryptos specifically influence the rest of the market
  
   ie. (Zheng) number of retweets and number of favorites should give extra weights to our words, but this 
       depends on what method we are gonna eventually use.
