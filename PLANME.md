@@ -3,11 +3,12 @@ ALL INVOLVED ARE WELCOME TO EDIT. MAKE SURE TO DOCUMENT CHANGES WELL
 
 
 BIGGEST PROBLEMS:
-1. Classifying tweets for positive or negativeness towards a currency. note that this can be solved AFTER we
+1(solved). Classifying tweets for positive or negativeness towards a currency. note that this can be solved AFTER we
 model speculation, but having a solution will increase our model's effectiveness if users posess or percieve
 a bias. the market value may be resistent to bear predictions, certain "key players" may be predisposed to 
 negativity, and thus be less "heeded" when advising a sell. Or vice versa, but keep in mind the market is 
 characterized by extreme optimism on the part of its core users.
+--Answer is to use Pitt's OpinionFinder software
 
 
 Just for the sake of documentation: the general idea here is to combine a bit of CS and a bit of Economics to 
@@ -18,6 +19,8 @@ speculation in the market?
 
 (Zheng) what about shocks in the market? like when china banned crypto currency, the price of bitcoin dropped and 
 can twitter show this kind of shocks?
+(Hayden) Actually my brother says there is a specific set of news sites that report on these things. we can combine
+that tool 
 
 this includes: 
 
@@ -47,6 +50,7 @@ The big questions:
       processing is clearly beyond the scope of this project, simple metrics may be effevtive to get a sense
       of wether some speculation data is BULLish or BEARish. 
   1d. (Zheng) Maybe include market data into our raw data to help explain variances unable to be explained just by twitter?
+      (Hayden) Meaning the larger market, like north american, asian, and european stock indexes?
  
   ie. (Zheng) number of retweets and number of favorites should give extra weights to our words, but this 
       depends on what method we are gonna eventually use.
@@ -56,6 +60,8 @@ The big questions:
   2a. (Zheng) If we are gathering from "important" people to gather "important" words, we probably needn't to worry about bias so far.
       Just gather enough size of data, and use cross validation to prove our prediction accuracy is high. In another way, our collected
       sample is our population.
+      (Hayden) Good point
+      
 3. How can we best model it? (first suggestion is to throw shit at the wall until something sticks)
   
   (Zheng) we should collect data first and then think about what models we should use. Essentially, simple techniques may work,
