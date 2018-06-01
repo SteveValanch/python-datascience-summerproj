@@ -94,3 +94,44 @@ The big questions:
 
   5a. (Zheng) programming and statistical models are just tools. Methods can be flexibly changed to predict other 
       price changes, or even flu trend and box office (done by others).
+      
+      
+      
+      
+THE DATABASE:
+This framework is intended to work with the shortlist of influential twitter
+accounts provided to us by our friends at the hedge fund. I model treating
+these tweets differently from those sent by people not on our list. 
+the rest of the tweets we can consider as "responses"
+by the vast majority of individuals we assume are influenced, but do not do any
+influencing themselves. 
+
+please comment/correct! 
+
+  table 1: (Influencer tweets): (userID, coin, timestamp, pos/neg, ID)
+  PK: ID
+  FK: userID referencing table 2 userID, coin referencing table 3 abbreviation)
+  
+  table 2: (Influencers): (username, userID(@Example)) 
+  PK: userID
+  
+  table 3: (currency): (name, abbreviation, applicable hashtag)
+  PK: hashtag
+  
+  table 4: (reception): (likes, retweets, replies, ID) 
+  PK: ID
+  FK: ID referencing table 2 userID
+  
+  
+  NOTE: for table 4, we need to decide on a reasonable time horizon to recheck on a tweet.
+  ~90% of these (likes, etc) happen within the first hour, but an hour is too long. we could even
+  consider a couple of checks at specific intervals, and compare against the individual's 
+  predicted counts of (likes, retweets, replies). we can say that a person has been "influenced"
+  particularly strongly if they like, retweet, or reply. this information could reveal
+  feedback between currency performance, and how influential a tweet is. this will be simple
+  once we get a list of accounts with the most network influence.
+  NOTE: for modeling the tweets of the whole network, the "non-influencers", clearly there is no
+  need to store anything about them in a database... we could find unknown influencers later on,
+  but for now, we just want to see frequency numbers. unknown influencers could be identified 
+  any one of a dozen different ways. 
+  
