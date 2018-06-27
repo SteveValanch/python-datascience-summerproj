@@ -1,0 +1,10 @@
+Datasets: (try to follow a consistent format!)
+
+1. 
+  Description: the first "successful" pull of data for this project
+  Source: Twitter API using Tweepy StreamListener
+  Filters: 'bitcoin','BTC','ethereum','ETH','ripple','XRP','BCH','litecoin','LTC','stellar','XLM','iota','IOT'
+  Timeframe: 36 hours from (2018-06-11 12:11:54) to (2018-06-12 22:52:02)
+  Justification: to produce a small, easilly processed dataset
+  Database System: SQLite
+  Schema: DS1(TEXT tweet, TEXT user, DATETIME time) PK(user, time)
